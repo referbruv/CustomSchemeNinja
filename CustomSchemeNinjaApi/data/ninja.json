@@ -1,0 +1,60 @@
+[
+    {
+        "id": "1001",
+        "name": "Hattori Zenzo",
+        "moniker": "Marishitten, Shinobi5, Oniwabanshuu",
+        "techniques": [
+            ""
+        ]
+    },
+    {
+        "id": "1002",
+        "name": "Gou",
+        "moniker": "Shinobi5",
+        "techniques": [
+            ""
+        ]
+    },
+    {
+        "id": "1003",
+        "name": "Shuwa",
+        "moniker": "Shinobi5",
+        "techniques": [
+            ""
+        ]
+    },
+    {
+        "id": "1004",
+        "name": "Wakikaoru",
+        "moniker": "Ninja Academy Madonna, Shinobi5",
+        "techniques": [
+            ""
+        ]
+    },
+    {
+        "id": "1005",
+        "name": "Matsuo",
+        "moniker": "Shinobi5",
+        "techniques": [
+            ""
+        ]
+    },
+    {
+        "id": "1006",
+        "name": "Sarutobi Ayame",
+        "moniker": "Assassin, Oniwabanshuu",
+        "techniques": [
+            ""
+        ]
+    },
+    {
+        "id": "1007",
+        "name": "Momochi Rappa",
+        "moniker": "Oniwabanshuu"
+    },
+    {
+        "id": "1008",
+        "name": "Fujibayashi Gaimon",
+        "moniker": "Oniwabanshuu"
+    }
+]
