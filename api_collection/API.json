@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "c61e8802-ee3d-4184-ae14-99f8595a0af5",
+		"name": "Custom Scheme Ninjas API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Single Ninja API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Ninpo {{authToken}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{API_URI}}/api/Ninjas/1002",
+					"host": [
+						"{{API_URI}}"
+					],
+					"path": [
+						"api",
+						"Ninjas",
+						"1002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Ninjas API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Ninpo {{authToken}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{API_URI}}/api/Ninjas",
+					"host": [
+						"{{API_URI}}"
+					],
+					"path": [
+						"api",
+						"Ninjas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Alive API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API_URI}}/api/Ninjas/Alive",
+					"host": [
+						"{{API_URI}}"
+					],
+					"path": [
+						"api",
+						"Ninjas",
+						"Alive"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "API_URI",
+			"value": "http://localhost:5000"
+		},
+		{
+			"key": "authToken",
+			"value": "eyJ1c2VySWQiOiIxMDAwMSIsIm5hbWUiOiJIYXR0b3JpIFplbnpvIiwiZW1haWxBZGRyZXNzIjoibWFyaXNoaXR0ZW5AbmlucG8uY29tIn0="
+		}
+	]
+}
